@@ -1,5 +1,4 @@
-# AliLabSwift
-Hanson Goverment
+# Hanson Goverment
 
 Cambrian at Hanson Mobile Application Development Team Project
 

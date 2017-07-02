@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A80CCEE1F07454A00402527 /* db_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCED1F07454A00402527 /* db_Login.swift */; };
+		2A80CCF01F075F0000402527 /* db_PeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCEF1F075F0000402527 /* db_PeopleList.swift */; };
+		2A80CCF21F0765C900402527 /* APITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCF11F0765C900402527 /* APITestViewController.swift */; };
+		2A80CCF41F0768B200402527 /* PeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCF31F0768B200402527 /* PeopleTableViewCell.swift */; };
+		2A80CCF61F07D3F800402527 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCF51F07D3F800402527 /* PeopleTableViewController.swift */; };
+		2A80CCF81F084CE700402527 /* db_SinNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCF71F084CE700402527 /* db_SinNumber.swift */; };
+		2A80CCFA1F0851FB00402527 /* SinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCF91F0851FB00402527 /* SinViewController.swift */; };
+		2A80CCFC1F08545100402527 /* db_State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCFB1F08545100402527 /* db_State.swift */; };
+		2A80CCFE1F087B2000402527 /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCFD1F087B2000402527 /* StateViewController.swift */; };
+		2A80CD001F08824800402527 /* db_Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCFF1F08824800402527 /* db_Credit.swift */; };
+		2A80CD021F08848100402527 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CD011F08848100402527 /* CreditViewController.swift */; };
+		2A80CD041F08870D00402527 /* db_Prod_Purchased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CD031F08870D00402527 /* db_Prod_Purchased.swift */; };
+		2A80CD061F0888AB00402527 /* ProdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CD051F0888AB00402527 /* ProdViewController.swift */; };
 		2AF1B5681F073B23006A7037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1B5671F073B23006A7037 /* AppDelegate.swift */; };
 		2AF1B56A1F073B23006A7037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1B5691F073B23006A7037 /* ViewController.swift */; };
 		2AF1B56D1F073B23006A7037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1B56B1F073B23006A7037 /* Main.storyboard */; };
@@ -15,6 +28,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A80CCED1F07454A00402527 /* db_Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_Login.swift; sourceTree = "<group>"; };
+		2A80CCEF1F075F0000402527 /* db_PeopleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_PeopleList.swift; sourceTree = "<group>"; };
+		2A80CCF11F0765C900402527 /* APITestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APITestViewController.swift; sourceTree = "<group>"; };
+		2A80CCF31F0768B200402527 /* PeopleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewCell.swift; sourceTree = "<group>"; };
+		2A80CCF51F07D3F800402527 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		2A80CCF71F084CE700402527 /* db_SinNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_SinNumber.swift; sourceTree = "<group>"; };
+		2A80CCF91F0851FB00402527 /* SinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinViewController.swift; sourceTree = "<group>"; };
+		2A80CCFB1F08545100402527 /* db_State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_State.swift; sourceTree = "<group>"; };
+		2A80CCFD1F087B2000402527 /* StateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		2A80CCFF1F08824800402527 /* db_Credit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_Credit.swift; sourceTree = "<group>"; };
+		2A80CD011F08848100402527 /* CreditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		2A80CD031F08870D00402527 /* db_Prod_Purchased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_Prod_Purchased.swift; sourceTree = "<group>"; };
+		2A80CD051F0888AB00402527 /* ProdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProdViewController.swift; sourceTree = "<group>"; };
 		2AF1B5641F073B23006A7037 /* Hanson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hanson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF1B5671F073B23006A7037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF1B5691F073B23006A7037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +61,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A80CCEB1F073F0F00402527 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		2A80CCEC1F073F2200402527 /* DBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				2A80CCED1F07454A00402527 /* db_Login.swift */,
+				2A80CCEF1F075F0000402527 /* db_PeopleList.swift */,
+				2A80CCF71F084CE700402527 /* db_SinNumber.swift */,
+				2A80CCFB1F08545100402527 /* db_State.swift */,
+				2A80CCFF1F08824800402527 /* db_Credit.swift */,
+				2A80CD031F08870D00402527 /* db_Prod_Purchased.swift */,
+			);
+			name = DBHelper;
+			sourceTree = "<group>";
+		};
 		2AF1B55B1F073B23006A7037 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +100,21 @@
 		2AF1B5661F073B23006A7037 /* Hanson */ = {
 			isa = PBXGroup;
 			children = (
+				2A80CCEC1F073F2200402527 /* DBHelper */,
+				2A80CCEB1F073F0F00402527 /* Data */,
 				2AF1B5671F073B23006A7037 /* AppDelegate.swift */,
 				2AF1B5691F073B23006A7037 /* ViewController.swift */,
 				2AF1B56B1F073B23006A7037 /* Main.storyboard */,
 				2AF1B56E1F073B23006A7037 /* Assets.xcassets */,
 				2AF1B5701F073B23006A7037 /* LaunchScreen.storyboard */,
 				2AF1B5731F073B23006A7037 /* Info.plist */,
+				2A80CCF11F0765C900402527 /* APITestViewController.swift */,
+				2A80CCF31F0768B200402527 /* PeopleTableViewCell.swift */,
+				2A80CCF51F07D3F800402527 /* PeopleTableViewController.swift */,
+				2A80CCF91F0851FB00402527 /* SinViewController.swift */,
+				2A80CCFD1F087B2000402527 /* StateViewController.swift */,
+				2A80CD011F08848100402527 /* CreditViewController.swift */,
+				2A80CD051F0888AB00402527 /* ProdViewController.swift */,
 			);
 			path = Hanson;
 			sourceTree = "<group>";
@@ -136,8 +191,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A80CD061F0888AB00402527 /* ProdViewController.swift in Sources */,
+				2A80CCFA1F0851FB00402527 /* SinViewController.swift in Sources */,
+				2A80CCFC1F08545100402527 /* db_State.swift in Sources */,
 				2AF1B56A1F073B23006A7037 /* ViewController.swift in Sources */,
 				2AF1B5681F073B23006A7037 /* AppDelegate.swift in Sources */,
+				2A80CCF41F0768B200402527 /* PeopleTableViewCell.swift in Sources */,
+				2A80CCEE1F07454A00402527 /* db_Login.swift in Sources */,
+				2A80CD001F08824800402527 /* db_Credit.swift in Sources */,
+				2A80CCF21F0765C900402527 /* APITestViewController.swift in Sources */,
+				2A80CCF81F084CE700402527 /* db_SinNumber.swift in Sources */,
+				2A80CCF61F07D3F800402527 /* PeopleTableViewController.swift in Sources */,
+				2A80CD021F08848100402527 /* CreditViewController.swift in Sources */,
+				2A80CCF01F075F0000402527 /* db_PeopleList.swift in Sources */,
+				2A80CD041F08870D00402527 /* db_Prod_Purchased.swift in Sources */,
+				2A80CCFE1F087B2000402527 /* StateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +369,7 @@
 				2AF1B5781F073B23006A7037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

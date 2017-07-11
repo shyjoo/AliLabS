@@ -14,8 +14,7 @@ public class db_SinNumber{
         var errorMsg = ""
         var sin = ""
         
-        let path = "http://localhost/AliAPI/getSinnumber.php?APIKey=918b247bd75322553d9036b998d1637e706b1fbe0015529ded9b1d55b2a68967&FirstName=" + fName + "&LastName=" + lName
-        
+        let path = "http://lilyfactory.net/AliAPI/getSinnumber.php?APIKey=918b247bd75322553d9036b998d1637e706b1fbe0015529ded9b1d55b2a68967&FirstName=" + fName + "&LastName=" + lName
         
         let url = URL(string: path)
         let data = NSData(contentsOf: url!)
@@ -31,14 +30,9 @@ public class db_SinNumber{
                 sin = dicSin
                 
             }
-            
-            
         } catch {
             // Handle Error
         }
-        
-        
         return (errorCode, errorMsg, sin)
-        
     }
 }

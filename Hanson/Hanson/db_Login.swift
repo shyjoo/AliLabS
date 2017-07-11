@@ -7,7 +7,6 @@
 //
 
 import Foundation
-
 extension String {
     /// Encode a String to Base64
     func toBase64() -> String {
@@ -30,8 +29,8 @@ public class db_Login
         let base64id = id.toBase64();
         let base64pass = pass.toBase64();
         
-        let path = "http://localhost/AliAPI/loginAgency.php?name=\(base64id)&pass=\(base64pass)"
-        
+        //let path = "http://localhost/AliAPI/loginAgency.php?name=\(base64id)&pass=\(base64pass)"
+        let path = "http://lilyfactory.net/AliAPI/loginAgency.php?name=\(base64id)&pass=\(base64pass)"
         
         let url = URL(string: path)
         let data = NSData(contentsOf: url!)

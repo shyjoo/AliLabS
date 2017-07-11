@@ -14,8 +14,7 @@ public class db_State{
         var errorMsg = ""
         var state = ""
         
-        let path = "http://localhost/AliAPI/getState.php?APIKey=b17ada736691f36aacbf89d425052ce74422a10744912b09332568be874536fc&FirstName=" + fName + "&LastName=" + lName
-        
+        let path = "http://lilyfactory.net/AliAPI/getState.php?APIKey=b17ada736691f36aacbf89d425052ce74422a10744912b09332568be874536fc&FirstName=" + fName + "&LastName=" + lName
         
         let url = URL(string: path)
         let data = NSData(contentsOf: url!)
@@ -29,15 +28,10 @@ public class db_State{
                 errorCode = dicCode
                 errorMsg = dicMessage
                 state = dicState
-                
             }
-            
-            
         } catch {
             // Handle Error
         }
-        
-        
         return (errorCode, errorMsg, state)
     }
 }

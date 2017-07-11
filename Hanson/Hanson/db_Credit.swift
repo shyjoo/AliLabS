@@ -13,9 +13,8 @@ public class db_Credit{
         var errorCode = 0
         var errorMsg = ""
         
-        let path = "http://localhost/AliAPI/updateCredit.php?APIKey=918b247bd75322553d9036b998d1637e706b1fbe0015529ded9b1d55b2a68967&FirstName=" + fName + "&LastName=" + lName + "&Credit=" + credit
-        
-        
+        let path = "http://lilyfactory.net/AliAPI/updateCredit.php?APIKey=918b247bd75322553d9036b998d1637e706b1fbe0015529ded9b1d55b2a68967&FirstName=" + fName + "&LastName=" + lName + "&Credit=" + credit
+
         let url = URL(string: path)
         let data = NSData(contentsOf: url!)
         
@@ -26,15 +25,10 @@ public class db_Credit{
                     let dicMessage = dictionary["Message"] as? String else { return (errorCode, errorMsg)}
                 errorCode = dicCode
                 errorMsg = dicMessage
-                
             }
-            
-            
         } catch {
             // Handle Error
         }
-        
-        
         return (errorCode, errorMsg)
     }
 }

@@ -20,7 +20,7 @@ public class db_PeopleList
         var errorMsg = ""
         var peopleList = [testPepledata]()
         
-        let path = "http://localhost/AliAPI/getPeopleList.php?APIKey=918b247bd75322553d9036b998d1637e706b1fbe0015529ded9b1d55b2a68967"
+        let path = "http://lilyfactory.net/AliAPI/getPeopleList.php?APIKey=918b247bd75322553d9036b998d1637e706b1fbe0015529ded9b1d55b2a68967"
         
         
         let url = URL(string: path)
@@ -40,8 +40,6 @@ public class db_PeopleList
                         let diclname = person["lastName"] as? String else { break }
                      peopleList.append(testPepledata(firstName: dicfname,lastName: diclname));
                    }
-               
-
                 }
                 
             
@@ -49,8 +47,6 @@ public class db_PeopleList
             // Handle Error
         }
         
-        
         return (errorCode, errorMsg, peopleList)
     }
-
 }

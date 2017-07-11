@@ -20,6 +20,10 @@
 		2A80CD021F08848100402527 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CD011F08848100402527 /* CreditViewController.swift */; };
 		2A80CD041F08870D00402527 /* db_Prod_Purchased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CD031F08870D00402527 /* db_Prod_Purchased.swift */; };
 		2A80CD061F0888AB00402527 /* ProdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CD051F0888AB00402527 /* ProdViewController.swift */; };
+		2A80CD081F0D975F00402527 /* db_AnnualInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CD071F0D975F00402527 /* db_AnnualInfo.swift */; };
+		2A80CD0A1F0D99F100402527 /* AnnualInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CD091F0D99F100402527 /* AnnualInfoViewController.swift */; };
+		2A80CD0C1F0DDCD900402527 /* AddNBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CD0B1F0DDCD900402527 /* AddNBalanceViewController.swift */; };
+		2A80CD0E1F0DDCF400402527 /* db_AddressNBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CD0D1F0DDCF400402527 /* db_AddressNBalance.swift */; };
 		2AF1B5681F073B23006A7037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1B5671F073B23006A7037 /* AppDelegate.swift */; };
 		2AF1B56A1F073B23006A7037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1B5691F073B23006A7037 /* ViewController.swift */; };
 		2AF1B56D1F073B23006A7037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1B56B1F073B23006A7037 /* Main.storyboard */; };
@@ -41,6 +45,10 @@
 		2A80CD011F08848100402527 /* CreditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 		2A80CD031F08870D00402527 /* db_Prod_Purchased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_Prod_Purchased.swift; sourceTree = "<group>"; };
 		2A80CD051F0888AB00402527 /* ProdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProdViewController.swift; sourceTree = "<group>"; };
+		2A80CD071F0D975F00402527 /* db_AnnualInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_AnnualInfo.swift; sourceTree = "<group>"; };
+		2A80CD091F0D99F100402527 /* AnnualInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnualInfoViewController.swift; sourceTree = "<group>"; };
+		2A80CD0B1F0DDCD900402527 /* AddNBalanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNBalanceViewController.swift; sourceTree = "<group>"; };
+		2A80CD0D1F0DDCF400402527 /* db_AddressNBalance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_AddressNBalance.swift; sourceTree = "<group>"; };
 		2AF1B5641F073B23006A7037 /* Hanson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hanson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF1B5671F073B23006A7037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF1B5691F073B23006A7037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +85,8 @@
 				2A80CCFB1F08545100402527 /* db_State.swift */,
 				2A80CCFF1F08824800402527 /* db_Credit.swift */,
 				2A80CD031F08870D00402527 /* db_Prod_Purchased.swift */,
+				2A80CD071F0D975F00402527 /* db_AnnualInfo.swift */,
+				2A80CD0D1F0DDCF400402527 /* db_AddressNBalance.swift */,
 			);
 			name = DBHelper;
 			sourceTree = "<group>";
@@ -115,6 +125,8 @@
 				2A80CCFD1F087B2000402527 /* StateViewController.swift */,
 				2A80CD011F08848100402527 /* CreditViewController.swift */,
 				2A80CD051F0888AB00402527 /* ProdViewController.swift */,
+				2A80CD091F0D99F100402527 /* AnnualInfoViewController.swift */,
+				2A80CD0B1F0DDCD900402527 /* AddNBalanceViewController.swift */,
 			);
 			path = Hanson;
 			sourceTree = "<group>";
@@ -195,8 +207,10 @@
 				2A80CCFA1F0851FB00402527 /* SinViewController.swift in Sources */,
 				2A80CCFC1F08545100402527 /* db_State.swift in Sources */,
 				2AF1B56A1F073B23006A7037 /* ViewController.swift in Sources */,
+				2A80CD0E1F0DDCF400402527 /* db_AddressNBalance.swift in Sources */,
 				2AF1B5681F073B23006A7037 /* AppDelegate.swift in Sources */,
 				2A80CCF41F0768B200402527 /* PeopleTableViewCell.swift in Sources */,
+				2A80CD0C1F0DDCD900402527 /* AddNBalanceViewController.swift in Sources */,
 				2A80CCEE1F07454A00402527 /* db_Login.swift in Sources */,
 				2A80CD001F08824800402527 /* db_Credit.swift in Sources */,
 				2A80CCF21F0765C900402527 /* APITestViewController.swift in Sources */,
@@ -205,6 +219,8 @@
 				2A80CD021F08848100402527 /* CreditViewController.swift in Sources */,
 				2A80CCF01F075F0000402527 /* db_PeopleList.swift in Sources */,
 				2A80CD041F08870D00402527 /* db_Prod_Purchased.swift in Sources */,
+				2A80CD0A1F0D99F100402527 /* AnnualInfoViewController.swift in Sources */,
+				2A80CD081F0D975F00402527 /* db_AnnualInfo.swift in Sources */,
 				2A80CCFE1F087B2000402527 /* StateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

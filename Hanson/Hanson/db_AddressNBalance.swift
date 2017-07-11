@@ -1,20 +1,22 @@
 //
-//  db_Prod_Purchased.swift
+//  db_AddressNBalance.swift
 //  Hanson
 //
-//  Created by Lily Jang on 2017-07-01.
+//  Created by Lily Jang on 2017-07-05.
 //  Copyright © 2017 Lily Jang. All rights reserved.
 //
 
 import Foundation
 
-public class db_Prod_Purchased
+public class db_AddressNBalance
 {
-    func updateProdPurchased(_ fName: String, _ lName: String, _ pp : String) -> (code: Int, msg: String)  {
+    func updateAddNBal(_ fName: String, _ lName: String, _ address: String, _ bal : String) -> (code: Int, msg: String)  {
         var errorCode = 0
         var errorMsg = ""
         
-        let path = "http://lilyfactory.net/AliAPI/updateProd_purchased.php?APIKey=28aece4f8f8643c39a0d6dc0e8f95e717f2117b42ac20835ca211ef85d112ed8&FirstName=" + fName + "&LastName=" + lName + "&PP=" + pp
+        var escapedAddressString = address.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
+        
+        let path = "http://lilyfactory.net/AliAPI/updateAddressAndBalance.php?APIKey=918b247bd75322553d9036b998d1637e706b1fbe0015529ded9b1d55b2a68967&FirstName=" + fName + "&LastName=" + lName + "&Address=" + escapedAddressString! +  "&Balance=" + bal
         
         let url = URL(string: path)
         let data = NSData(contentsOf: url!)
@@ -31,6 +33,5 @@ public class db_Prod_Purchased
             // Handle Error
         }
         return (errorCode, errorMsg)
-
     }
 }

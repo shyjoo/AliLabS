@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A3C9AC91F16D45000709EFF /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C9AC81F16D45000709EFF /* DailyViewController.swift */; };
+		2A3C9ACB1F16D65400709EFF /* db_TotalQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C9ACA1F16D65400709EFF /* db_TotalQuery.swift */; };
+		2A3C9ACF1F17021E00709EFF /* LogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C9ACE1F17021E00709EFF /* LogTableViewController.swift */; };
+		2A3C9AD11F17051300709EFF /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C9AD01F17051300709EFF /* LogTableViewCell.swift */; };
 		2A80CCEE1F07454A00402527 /* db_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCED1F07454A00402527 /* db_Login.swift */; };
 		2A80CCF01F075F0000402527 /* db_PeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCEF1F075F0000402527 /* db_PeopleList.swift */; };
 		2A80CCF21F0765C900402527 /* APITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80CCF11F0765C900402527 /* APITestViewController.swift */; };
@@ -32,6 +36,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A3C9AC81F16D45000709EFF /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		2A3C9ACA1F16D65400709EFF /* db_TotalQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_TotalQuery.swift; sourceTree = "<group>"; };
+		2A3C9ACE1F17021E00709EFF /* LogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogTableViewController.swift; sourceTree = "<group>"; };
+		2A3C9AD01F17051300709EFF /* LogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogTableViewCell.swift; sourceTree = "<group>"; };
 		2A80CCED1F07454A00402527 /* db_Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_Login.swift; sourceTree = "<group>"; };
 		2A80CCEF1F075F0000402527 /* db_PeopleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_PeopleList.swift; sourceTree = "<group>"; };
 		2A80CCF11F0765C900402527 /* APITestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APITestViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +95,7 @@
 				2A80CD031F08870D00402527 /* db_Prod_Purchased.swift */,
 				2A80CD071F0D975F00402527 /* db_AnnualInfo.swift */,
 				2A80CD0D1F0DDCF400402527 /* db_AddressNBalance.swift */,
+				2A3C9ACA1F16D65400709EFF /* db_TotalQuery.swift */,
 			);
 			name = DBHelper;
 			sourceTree = "<group>";
@@ -127,6 +136,9 @@
 				2A80CD051F0888AB00402527 /* ProdViewController.swift */,
 				2A80CD091F0D99F100402527 /* AnnualInfoViewController.swift */,
 				2A80CD0B1F0DDCD900402527 /* AddNBalanceViewController.swift */,
+				2A3C9AC81F16D45000709EFF /* DailyViewController.swift */,
+				2A3C9ACE1F17021E00709EFF /* LogTableViewController.swift */,
+				2A3C9AD01F17051300709EFF /* LogTableViewCell.swift */,
 			);
 			path = Hanson;
 			sourceTree = "<group>";
@@ -203,9 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A3C9ACF1F17021E00709EFF /* LogTableViewController.swift in Sources */,
 				2A80CD061F0888AB00402527 /* ProdViewController.swift in Sources */,
 				2A80CCFA1F0851FB00402527 /* SinViewController.swift in Sources */,
 				2A80CCFC1F08545100402527 /* db_State.swift in Sources */,
+				2A3C9AD11F17051300709EFF /* LogTableViewCell.swift in Sources */,
 				2AF1B56A1F073B23006A7037 /* ViewController.swift in Sources */,
 				2A80CD0E1F0DDCF400402527 /* db_AddressNBalance.swift in Sources */,
 				2AF1B5681F073B23006A7037 /* AppDelegate.swift in Sources */,
@@ -217,8 +231,10 @@
 				2A80CCF81F084CE700402527 /* db_SinNumber.swift in Sources */,
 				2A80CCF61F07D3F800402527 /* PeopleTableViewController.swift in Sources */,
 				2A80CD021F08848100402527 /* CreditViewController.swift in Sources */,
+				2A3C9AC91F16D45000709EFF /* DailyViewController.swift in Sources */,
 				2A80CCF01F075F0000402527 /* db_PeopleList.swift in Sources */,
 				2A80CD041F08870D00402527 /* db_Prod_Purchased.swift in Sources */,
+				2A3C9ACB1F16D65400709EFF /* db_TotalQuery.swift in Sources */,
 				2A80CD0A1F0D99F100402527 /* AnnualInfoViewController.swift in Sources */,
 				2A80CD081F0D975F00402527 /* db_AnnualInfo.swift in Sources */,
 				2A80CCFE1F087B2000402527 /* StateViewController.swift in Sources */,

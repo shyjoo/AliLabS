@@ -169,6 +169,19 @@
                                     <action selector="logTrace:" destination="4IA-ZM-w1S" eventType="touchUpInside" id="ad4-bQ-jQV"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P1U-fQ-1MS" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="51" y="239" width="271" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UvJ-2J-ewd">
+                                <rect key="frame" x="127" y="519" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Daily Chart"/>
+                                <connections>
+                                    <segue destination="Ls0-EO-Zxn" kind="show" id="3Te-5D-Kko"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -177,11 +190,12 @@
                         <outlet property="ErrorCountLabel" destination="5kE-Px-iZC" id="8cs-hy-tMC"/>
                         <outlet property="SuccessCountLabel" destination="eMM-j9-yd7" id="Bn9-Yy-NA7"/>
                         <outlet property="TotalCountLabel" destination="eF5-KV-FjP" id="4s0-vT-haW"/>
+                        <outlet property="queryCntView" destination="P1U-fQ-1MS" id="MMj-rL-iE5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ESS-gr-n5L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2658.4000000000001" y="75.112443778110944"/>
+            <point key="canvasLocation" x="2821.5999999999999" y="117.39130434782609"/>
         </scene>
         <!--API TEST-->
         <scene sceneID="4GN-TK-9Q9">
@@ -406,7 +420,35 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hMT-oN-oSN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3397.5999999999999" y="-435.83208395802103"/>
+            <point key="canvasLocation" x="3558" y="-465"/>
+        </scene>
+        <!--Daily Chart-->
+        <scene sceneID="DyN-Bn-ju3">
+            <objects>
+                <viewController title="Daily Chart" id="Ls0-EO-Zxn" customClass="DailyChartViewController" customModule="Hanson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mNA-fi-fxX"/>
+                        <viewControllerLayoutGuide type="bottom" id="qtA-ay-kCd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wjk-WO-O3q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ujn-pM-RXC" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="16" y="149" width="343" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="DailyChart" destination="ujn-pM-RXC" id="nOl-Pw-sa3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hf-j4-eMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3893.5999999999999" y="-47.226386806596707"/>
         </scene>
         <!--People Table View Controller-->
         <scene sceneID="p2s-LC-tcN">

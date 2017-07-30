@@ -26,10 +26,11 @@ class DailyViewController: UIViewController {
         super.viewDidLoad()
 
         let date = Date()
-        let formatter = DateFormatter()
         
-        formatter.dateFormat = "mm dd, yyyy"
-        let now = formatter.string(from: date)
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .none
+        let now = dateFormatter.string(from: date)
         DateLabel.text = now + " Query Report"
         
         
@@ -97,7 +98,7 @@ class DailyViewController: UIViewController {
     }
     
     func setChart(dataPoints: [String], values: [Double]) {
-        
+        queryCntView.noDataText = "You need to provide data for the chart."
         var dataEntries: [ChartDataEntry] = []
         
         for i in 0..<dataPoints.count {
@@ -110,7 +111,7 @@ class DailyViewController: UIViewController {
         
         
         queryCntView.data = pieChartData
-        
+        queryCntView.descriptionText = ""
         var colors: [UIColor] = []
         
         for i in 0..<dataPoints.count {

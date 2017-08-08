@@ -36,7 +36,7 @@ class DailyViewController: UIViewController {
         
         let result = conTotalQuery.getTotalQuery()
         
-        if result.code == 100{
+        if result.code == 100 && result.tcnt != 0 {
             
             TotalCountLabel.text = String(result.tcnt)
             SuccessCountLabel.text = String(result.scnt)
@@ -48,17 +48,20 @@ class DailyViewController: UIViewController {
             piey.append(Double(result.scnt))
             piey.append(Double(result.ecnt))
             
-            if result.tcnt == 0 {
-                displayAlertMessage(messageToDisplay: "Doesn't have Query Count")
-            }
-            else{
-                setChart(dataPoints: piex, values: piey)
-
-                list = result.list
-            }
+            setChart(dataPoints: piex, values: piey)
+            
+            list = result.list!
+        }
+        else if result.code == 0 {
+            TotalCountLabel.text = "0"
+            SuccessCountLabel.text = "0"
+            ErrorCountLabel.text = "0"
+            displayAlertMessage(messageToDisplay: "Doesn't have Query Count")
+            
         }
         else{
             displayAlertMessage(messageToDisplay: result.msg)
+
         }
         
             }

@@ -38,7 +38,10 @@ public class db_AgencyQueryCount
                 for log in dicList {
                     guard let dicName = log["agencyName"] as? String! ?? "",
                         let dicCount = log["count"] as? String! ?? "" else { break }
-                    countList.append(countData(name: dicName, count: Int(dicCount)!));
+                    if dicName != "" {
+                        countList.append(countData(name: dicName, count: Int(dicCount)!));
+                    }
+                    
                 }
             }
             

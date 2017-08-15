@@ -128,6 +128,5 @@ class DailyViewController: UIViewController {
         
         pieChartDataSet.colors = colors
         
-        
     }
 }

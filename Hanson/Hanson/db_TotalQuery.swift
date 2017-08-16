@@ -23,7 +23,7 @@ struct logData {
 
 public class db_TotalQuery
 {
-    func getTotalQuery() -> (code: Int, msg: String, tcnt: Int, scnt: Int, ecnt:Int, list: [logData]) {
+    func getTotalQuery() -> (code: Int, msg: String, tcnt: Int, scnt: Int, ecnt:Int, list: [logData]?) {
         var errorCode = 0
         var errorMsg = ""
         var totalCount = 0
@@ -45,7 +45,8 @@ public class db_TotalQuery
                     let dicTcnt = dictionary["LogCount"] as? Int,
                     let dicScnt = dictionary["SuccessCount"] as? Int,
                     let dicEcnt = dictionary["ErrorCount"] as? Int,
-                    let dicList = dictionary["LogTrace"] as? [[String: AnyObject]]  else { return (errorCode, errorMsg, totalCount, successCount, errorCount, logList)}
+                    let dicList = dictionary["LogTrace"] as? [[String: AnyObject]]! ?? nil
+                    else { return (errorCode, errorMsg, totalCount, successCount, errorCount, logList)}
                 errorCode = dicCode
                 errorMsg = dicMessage
                 totalCount = dicTcnt

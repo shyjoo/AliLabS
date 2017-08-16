@@ -1,8 +1,10 @@
 # Hanson Goverment
 
-Cambrian at Hanson Mobile Application Development Team Project
-
+<h4>Cambridan@Hanson Mobile Application Team Project</h4>
 Team Member
-Miju Jang
-Pyosang Park
-Hao wu
+<ul>
+<li>Miju Jang</li>
+<li>Pyosang Park</li>
+<li>Hao Wo</li>
+</ul>
+

@@ -33,6 +33,12 @@
 		2AF1B56D1F073B23006A7037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1B56B1F073B23006A7037 /* Main.storyboard */; };
 		2AF1B56F1F073B23006A7037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1B56E1F073B23006A7037 /* Assets.xcassets */; };
 		2AF1B5721F073B23006A7037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1B5701F073B23006A7037 /* LaunchScreen.storyboard */; };
+		6C02CACA1F27BC5000A0F5D9 /* db_CustomerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C02CAC91F27BC5000A0F5D9 /* db_CustomerList.swift */; };
+		6C02CB121F2A867F00A0F5D9 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C02CB111F2A867F00A0F5D9 /* ListTableViewCell.swift */; };
+		6C02CB141F2AA38200A0F5D9 /* db_CustomerRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C02CB131F2AA38100A0F5D9 /* db_CustomerRegister.swift */; };
+		6CE1C6761F1EA20600FE51EB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE1C6751F1EA20600FE51EB /* RegisterViewController.swift */; };
+		6CE1C6781F1EAC1800FE51EB /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE1C6771F1EAC1800FE51EB /* ListTableViewController.swift */; };
+		6CE1C67A1F1EAE3400FE51EB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE1C6791F1EAE3400FE51EB /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +70,12 @@
 		2AF1B56E1F073B23006A7037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AF1B5711F073B23006A7037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AF1B5731F073B23006A7037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C02CAC91F27BC5000A0F5D9 /* db_CustomerList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_CustomerList.swift; sourceTree = "<group>"; };
+		6C02CB111F2A867F00A0F5D9 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		6C02CB131F2AA38100A0F5D9 /* db_CustomerRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_CustomerRegister.swift; sourceTree = "<group>"; };
+		6CE1C6751F1EA20600FE51EB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6CE1C6771F1EAC1800FE51EB /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		6CE1C6791F1EAE3400FE51EB /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,8 @@
 				2A80CD071F0D975F00402527 /* db_AnnualInfo.swift */,
 				2A80CD0D1F0DDCF400402527 /* db_AddressNBalance.swift */,
 				2A3C9ACA1F16D65400709EFF /* db_TotalQuery.swift */,
+				6C02CAC91F27BC5000A0F5D9 /* db_CustomerList.swift */,
+				6C02CB131F2AA38100A0F5D9 /* db_CustomerRegister.swift */,
 			);
 			name = DBHelper;
 			sourceTree = "<group>";
@@ -123,11 +137,14 @@
 				2A80CCEB1F073F0F00402527 /* Data */,
 				2AF1B5671F073B23006A7037 /* AppDelegate.swift */,
 				2AF1B5691F073B23006A7037 /* ViewController.swift */,
+				6CE1C6791F1EAE3400FE51EB /* ListViewController.swift */,
 				2AF1B56B1F073B23006A7037 /* Main.storyboard */,
 				2AF1B56E1F073B23006A7037 /* Assets.xcassets */,
 				2AF1B5701F073B23006A7037 /* LaunchScreen.storyboard */,
 				2AF1B5731F073B23006A7037 /* Info.plist */,
 				2A80CCF11F0765C900402527 /* APITestViewController.swift */,
+				6CE1C6771F1EAC1800FE51EB /* ListTableViewController.swift */,
+				6CE1C6751F1EA20600FE51EB /* RegisterViewController.swift */,
 				2A80CCF31F0768B200402527 /* PeopleTableViewCell.swift */,
 				2A80CCF51F07D3F800402527 /* PeopleTableViewController.swift */,
 				2A80CCF91F0851FB00402527 /* SinViewController.swift */,
@@ -139,6 +156,7 @@
 				2A3C9AC81F16D45000709EFF /* DailyViewController.swift */,
 				2A3C9ACE1F17021E00709EFF /* LogTableViewController.swift */,
 				2A3C9AD01F17051300709EFF /* LogTableViewCell.swift */,
+				6C02CB111F2A867F00A0F5D9 /* ListTableViewCell.swift */,
 			);
 			path = Hanson;
 			sourceTree = "<group>";
@@ -218,15 +236,18 @@
 				2A3C9ACF1F17021E00709EFF /* LogTableViewController.swift in Sources */,
 				2A80CD061F0888AB00402527 /* ProdViewController.swift in Sources */,
 				2A80CCFA1F0851FB00402527 /* SinViewController.swift in Sources */,
+				6CE1C6761F1EA20600FE51EB /* RegisterViewController.swift in Sources */,
 				2A80CCFC1F08545100402527 /* db_State.swift in Sources */,
 				2A3C9AD11F17051300709EFF /* LogTableViewCell.swift in Sources */,
 				2AF1B56A1F073B23006A7037 /* ViewController.swift in Sources */,
 				2A80CD0E1F0DDCF400402527 /* db_AddressNBalance.swift in Sources */,
+				6CE1C6781F1EAC1800FE51EB /* ListTableViewController.swift in Sources */,
 				2AF1B5681F073B23006A7037 /* AppDelegate.swift in Sources */,
 				2A80CCF41F0768B200402527 /* PeopleTableViewCell.swift in Sources */,
 				2A80CD0C1F0DDCD900402527 /* AddNBalanceViewController.swift in Sources */,
 				2A80CCEE1F07454A00402527 /* db_Login.swift in Sources */,
 				2A80CD001F08824800402527 /* db_Credit.swift in Sources */,
+				6C02CB141F2AA38200A0F5D9 /* db_CustomerRegister.swift in Sources */,
 				2A80CCF21F0765C900402527 /* APITestViewController.swift in Sources */,
 				2A80CCF81F084CE700402527 /* db_SinNumber.swift in Sources */,
 				2A80CCF61F07D3F800402527 /* PeopleTableViewController.swift in Sources */,
@@ -234,9 +255,12 @@
 				2A3C9AC91F16D45000709EFF /* DailyViewController.swift in Sources */,
 				2A80CCF01F075F0000402527 /* db_PeopleList.swift in Sources */,
 				2A80CD041F08870D00402527 /* db_Prod_Purchased.swift in Sources */,
+				6C02CB121F2A867F00A0F5D9 /* ListTableViewCell.swift in Sources */,
 				2A3C9ACB1F16D65400709EFF /* db_TotalQuery.swift in Sources */,
 				2A80CD0A1F0D99F100402527 /* AnnualInfoViewController.swift in Sources */,
 				2A80CD081F0D975F00402527 /* db_AnnualInfo.swift in Sources */,
+				6CE1C67A1F1EAE3400FE51EB /* ListViewController.swift in Sources */,
+				6C02CACA1F27BC5000A0F5D9 /* db_CustomerList.swift in Sources */,
 				2A80CCFE1F087B2000402527 /* StateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
